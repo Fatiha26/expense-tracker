@@ -6,9 +6,11 @@ function Categories() {
     const { categories, loadingCategories } = useCategory();
 
     return (
-        <div>   {categories?.map((item: any, index: number) => (
-            <p>{item?.categoryName}</p>
-        ))}</div>
+        <div>
+            {categories?.map((item: any, index: number) => (
+                <p>{item?.categoryName}</p>
+            ))}
+        </div>
     )
 }
 
