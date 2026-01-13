@@ -1,3 +1,5 @@
+'use client'
+
 import useCategory from '@/app/hooks/useCategory';
 
 function Categories() {
